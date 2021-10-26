@@ -47,6 +47,8 @@
 </com.google.android.material.textfield.TextInputLayout>
 ```
 
+---
+
 Step 1. Add this additional file and code
 
 - res
