@@ -11,10 +11,11 @@
     android:hint="Label"
     android:paddingTop="0dp">
 
-    <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial" />
+    <com.google.android.material.textfield.TextInputEditText
+    style="@style/MyTextInputEditText.Spesial" />
 
 </com.google.android.material.textfield.TextInputLayout>
-``
+```
 
 - Type 2
 ```xml
@@ -25,10 +26,11 @@
     android:hint="Label"
     app:endIconMode="clear_text">
 
-    <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V2" />
+    <com.google.android.material.textfield.TextInputEditText
+    style="@style/MyTextInputEditText.Spesial.V2" />
 
 </com.google.android.material.textfield.TextInputLayout>
-``
+```
 
 - Type 3
 ```xml
@@ -39,10 +41,13 @@
     android:hint="Label"
     app:endIconMode="clear_text">
 
-    <com.google.android.material.textfield.TextInputEditText style="@style/MyTextInputEditText.Spesial.V3" />
+    <com.google.android.material.textfield.TextInputEditText
+    style="@style/MyTextInputEditText.Spesial.V3" />
 
 </com.google.android.material.textfield.TextInputLayout>
 ```
+
+Step 1. Add this additional file and code
 
 - res
   - color
@@ -58,6 +63,15 @@
     - [dimens.xml](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/app/src/main/res/values/dimens.xml)
     - [strings.xml](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/app/src/main/res/values/strings.xml)
     - [themes.xml](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/app/src/main/res/values/themes.xml)
+
+Step 2. Or add this **implementation** to depedencies to skip **Step 1**
+
+```gradle
+//maven { url 'https://jitpack.io' }
+implementation 'com.github.gzeinnumer:SimpleMaterialStyle:version'
+```
+
+More simple with [SimpleMaterialStyle](https://github.com/gzeinnumer/SimpleMaterialStyle)
 
 ---
 
