@@ -1,6 +1,6 @@
 # TextInputLayoutStyle
 
-![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_1.png)
+![](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/preview/preview_2.png)
 
 - Type 1
 ```xml
@@ -46,6 +46,24 @@
 
 </com.google.android.material.textfield.TextInputLayout>
 ```
+
+- Custom Background Type 2
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/MyTextInputLayoutOutlinedBox.Spesial.V2"
+    android:layout_margin="@dimen/def_margin"
+    android:layout_weight="1"
+    android:hint="Label"
+    app:endIconMode="clear_text">
+
+    <com.google.android.material.textfield.TextInputEditText
+        style="@style/MyTextInputEditText.Spesial.V2"
+        android:background="@drawable/text_input_edittext_3d_custom"
+        android:text="GZeinNumer" />
+
+</com.google.android.material.textfield.TextInputLayout>
+```
+[text_input_edittext_3d_custom.xml](https://github.com/gzeinnumer/TextInputLayoutStyle/blob/master/app/src/main/res/drawable/text_input_edittext_3d_custom.xml)
 
 ---
 
